@@ -1,0 +1,45 @@
+version: '3'
+
+services:
+  mongodb:
+    image: mongo:3.5
+    container_name: mongodb
+    volumes:
+      - $PWD/mongodb/data:/data/db
+    restart: always
+    networks:
+      - eiblog-net
+
+  elasticsearch:
+    image: elasticsearch:2.4.1
+    container_name: elasticsearch
+    volumes:
+      - $PWD/elasticsearch/config:/usr/share/elasticsearch/config
+      - $PWD/elasticsearch/plugins:/usr/share/elasticsearch/plugins
+      - $PWD/elasticsearch/esdata/data:/usr/share/elasticsearch/data
+      - $PWD/elasticsearch/esdata/logs:/usr/share/elasticsearch/logs
+    environment:
+      ES_JAVA_OPTS: "-Xms512m -Xmx512m"
+    restart: always
+    networks:
+      - eiblog-net
+
+  eiblog:
+    image: zhufuyi/eiblog:latest
+    container_name: eiblog
+    # 如果使用默认配置启动，则去掉conf和static两个目录映射，如果自定义配置则需要从项目中复制conf和static两个目录过来
+    #volumes:
+    #  - $PWD/eiblog/conf:/eiblog/conf
+    #  - $PWD/eiblog/static:/eiblog/static
+    depends_on:
+      - elasticsearch
+      - mongodb
+    ports:
+      - "9000:9000"
+    restart: always
+    networks:
+      - eiblog-net
+
+networks:
+  eiblog-net:
+    driver: bridge

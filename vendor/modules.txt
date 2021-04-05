@@ -1,0 +1,95 @@
+# github.com/boj/redistore v0.0.0-20170419030511-4562487a4bee
+## explicit
+github.com/boj/redistore
+# github.com/davecgh/go-spew v1.1.0
+github.com/davecgh/go-spew/spew
+# github.com/deepzz0/logd v0.0.0-20171206094927-f91dd8c6316f
+## explicit
+github.com/deepzz0/logd
+# github.com/eiblog/blackfriday v0.0.0-20161010144836-c0ec111761ae
+## explicit
+# github.com/eiblog/utils v0.0.0-20171127072154-e8f16268dae9
+## explicit
+# github.com/garyburd/redigo v1.5.0
+## explicit
+github.com/garyburd/redigo/internal
+github.com/garyburd/redigo/redis
+# github.com/gin-gonic/autotls v0.0.0-20170916165415-8ca25fbde72b
+## explicit
+github.com/gin-gonic/autotls
+# github.com/gin-gonic/contrib v0.0.0-20180104052136-88aede40372d
+## explicit
+github.com/gin-gonic/contrib/sessions
+# github.com/gin-gonic/gin v1.1.4
+## explicit
+github.com/gin-gonic/gin
+github.com/gin-gonic/gin/binding
+github.com/gin-gonic/gin/render
+# github.com/golang/protobuf v0.0.0-20160106020635-2402d76f3d41
+## explicit
+github.com/golang/protobuf/proto
+# github.com/gorilla/context v1.1.1
+## explicit
+github.com/gorilla/context
+# github.com/gorilla/securecookie v1.1.1
+## explicit
+github.com/gorilla/securecookie
+# github.com/gorilla/sessions v0.0.0-20171008214740-a3acf13e802c
+## explicit
+github.com/gorilla/sessions
+# github.com/manucorporat/sse v0.0.0-20160126180136-ee05b128a739
+## explicit
+github.com/manucorporat/sse
+# github.com/mattn/go-isatty v0.0.4
+## explicit
+github.com/mattn/go-isatty
+# github.com/pmezard/go-difflib v1.0.0
+github.com/pmezard/go-difflib/difflib
+# github.com/qiniu/api.v7 v7.2.4-0.20171103015959-b7c7d6a2ce0a+incompatible
+## explicit
+github.com/qiniu/api.v7/auth/qbox
+github.com/qiniu/api.v7/conf
+github.com/qiniu/api.v7/storage
+# github.com/qiniu/x v0.0.0-20150721034113-f512abcf45ab
+## explicit
+github.com/qiniu/x/bytes.v7
+github.com/qiniu/x/bytes.v7/seekable
+github.com/qiniu/x/ctype.v7
+github.com/qiniu/x/rpc.v7
+github.com/qiniu/x/xlog.v7
+# github.com/shurcooL/sanitized_anchor_name v0.0.0-20170918181015-86672fcb3f95
+## explicit
+github.com/shurcooL/sanitized_anchor_name
+# github.com/stretchr/testify v1.7.0
+## explicit
+github.com/stretchr/testify/assert
+# golang.org/x/crypto v0.0.0-20180112200814-13931e22f9e7
+## explicit
+golang.org/x/crypto/acme
+golang.org/x/crypto/acme/autocert
+# golang.org/x/net v0.0.0-20160126033523-f315505cf334
+## explicit
+golang.org/x/net/context
+# golang.org/x/sys v0.0.0-20180110071738-810d70003458
+## explicit
+golang.org/x/sys/unix
+# gopkg.in/go-playground/validator.v8 v8.15.1
+## explicit
+gopkg.in/go-playground/validator.v8
+# gopkg.in/mgo.v2 v2.0.0-20160818020120-3f83fa500528
+## explicit
+gopkg.in/mgo.v2
+gopkg.in/mgo.v2/bson
+gopkg.in/mgo.v2/internal/json
+gopkg.in/mgo.v2/internal/sasl
+gopkg.in/mgo.v2/internal/scram
+# gopkg.in/yaml.v2 v2.0.0
+## explicit
+gopkg.in/yaml.v2
+# gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+gopkg.in/yaml.v3
+# qiniupkg.com/x v1.7.8
+## explicit
+qiniupkg.com/x/bytes.v7
+qiniupkg.com/x/log.v7
+qiniupkg.com/x/reqid.v7

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>xxxx</title>
+        <link>https://zhuyasen.com</link>
+        <description>江上清风游</description>
+        <atom:link href="https://zhuyasen.com/rss.html" rel="self" />
+        <atom:link href="https://deepzz.superfeedr.com/" rel="hub" />
+        <language>zh-CN</language>
+        <lastBuildDate>Sun, 04 Apr 2021 18:51:41 +0800</lastBuildDate>
+        
+    </channel>
+</rss>
